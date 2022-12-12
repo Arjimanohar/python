@@ -1,0 +1,17 @@
+from tkinter import *
+fb=Tk()
+fb.title("student application");
+Label(fb,text="student name:").grid(row=0)
+Label(fb,text="student id:").grid(row=1)
+Label(fb,text="student roll:").grid(row=2)
+Label(fb,text="student email:").grid(row=3)
+Label(fb,text="student father:").grid(row=4)
+Label(fb,text="student mother:").grid(row=5)
+Entry(fb).grid(row=0,column=1)
+Entry(fb).grid(row=1,column=1)
+Entry(fb).grid(row=2,column=1)
+Entry(fb).grid(row=3,column=1)
+Entry(fb).grid(row=4,column=1)
+Button(fb,text=login).grid(row=6,column=1)
+Button(fb,text=cancel).grid(row=6,column=2)
+mainloop()
