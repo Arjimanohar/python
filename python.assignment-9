@@ -1,0 +1,11 @@
+p=[]
+n=int(input())
+p=list(map(int,input().split()))
+for i in range(0,n+1):
+    for j in range(i+1,n):
+        if(p[i]>p[j]):
+            x= p[i]
+            p[i]=p[j]
+            p[j]=x
+p.reverse()
+print(p)
