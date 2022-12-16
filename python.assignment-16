@@ -1,0 +1,7 @@
+str=input("enter a string:")
+p=len(str)
+count=0
+for i in range(0,p):
+    if(str[i].isdigit()==1):
+        count=count+1
+print(count)
