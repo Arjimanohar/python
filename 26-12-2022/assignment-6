@@ -1,0 +1,16 @@
+def manu(n):
+    l=0
+    s=0
+    while(n!=0):
+        l=n%10
+        s=s+(l*l)
+        n=n//10
+    return s
+
+n=int(input())
+while(n>9):
+    n=manu(n)
+if(n==1 or n==7):
+    print(n,"is a happy number")
+else:
+    print(n,"not happy number")
