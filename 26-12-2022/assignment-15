@@ -1,0 +1,19 @@
+a=list(map(int,input("enter the values:").split()))
+l=[]
+x=0
+c=0
+s=len(a)
+while x<s:
+    y=0
+    c=0
+    while y<s:
+        if(a[x]==a[y]):
+            c=c+1
+        y=y+1
+    if(c==1):
+        l.append(a[x])
+    x=x+1
+print("the unique number")
+z=len(l)
+for i in range(0,z):
+    print(l[i],end='  ')
