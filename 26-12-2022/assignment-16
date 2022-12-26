@@ -1,0 +1,4 @@
+l=list(map(int,input().split()))
+big=max(l)
+small=min(l)
+print("difference between max ans min is :",big-small)
