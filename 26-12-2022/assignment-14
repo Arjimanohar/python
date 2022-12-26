@@ -1,0 +1,17 @@
+def manu(n):
+    s=0
+    while(n!=0):
+        l=n%10
+        s=s+(l*l)
+        n=n//10
+    return s
+
+n=int(input())
+for i in range(n-1,0,-1):
+    temp=i
+    while(i>9):
+        i=manu(i)
+    if i==7 or i==1:
+        print(temp)
+        break
+
