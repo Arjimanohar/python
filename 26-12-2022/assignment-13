@@ -1,0 +1,7 @@
+p=list(map(int,input().split()))
+p1=set(p)
+p1=list(p1)
+if p==p1:
+    print("Unique")
+else:
+    print("Doplicate")
