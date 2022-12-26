@@ -1,0 +1,17 @@
+num=int(input())
+if(num<10):
+    print("enter double digits numbers")
+else:
+    max=num%10
+    min=max
+    num=num//10
+    while(num>0):
+        num=num%10
+        if(num<min):
+            min=num
+        if(num>max):
+            max=num
+        num=num//10
+print(max)
+print(min)
+            
