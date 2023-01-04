@@ -1,0 +1,17 @@
+r=int(input("how many row numbers:"))
+c=int(input("how many colomes numbers:"))
+k=[]
+s=0
+for i in range(0,r):#1  2  3   4   5  6,2
+    l=[]
+    for j in range(0,c):# 1  2   3   4   5   6,3
+        x=int(input("enter elements:"))
+        l.append(x)
+    k.append(l)
+    print(k)
+for i in range(0,r):#1
+    for j in range(0,c):#1
+        if(i==j):
+            print(k[i][j])
+            s=s+k[i][j]
+print(s)
