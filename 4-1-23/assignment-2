@@ -1,0 +1,18 @@
+n=int(input("enters rows and colomns:"))
+h=[]
+for r in range(0,n):
+    l=[]
+    for c in range(0,n):
+        v=int(input("enter number:"))
+        l.append(v)
+    h.append(l)
+print(h)
+count=[]
+for r in range(0,n):
+    for c in range(0,n):
+        if(r==c):
+            count.append(h[r][c])
+        elif(r+c==n-1):
+            count.append(h[r][c])
+print(count)
+print(count.sort())
