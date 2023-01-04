@@ -1,0 +1,19 @@
+n=int(input("enters rows and colomns:))
+h=[]
+for r in range(0,n):
+    l=[]
+    for c in range(0,n):
+        v=int(input("enter number:"))
+        l.append(v)
+    h.append(l)
+count=0
+for r in range(0,n):
+    s=0
+    for c in range(0,n):
+        s=s+h[r][c]
+    if s==2:
+        count=count+1
+if count==n:
+    print("code target matrix")
+else:
+    print("not a code target matrix")
