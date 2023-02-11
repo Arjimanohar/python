@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgb(116, 205, 240),rgb(221, 12, 244));
+
+}
+h1{
+    text-align: center;
+    background: linear-gradient(to right,rgb(34, 192, 255),rgb(12, 244, 143));
+    text-transform: capitalize;
+}
+nav{
+    text-align: center;
+    display: grid;
+    text-transform: capitalize;
+    background: linear-gradient(to right,rgba(205, 249, 151, 0.397),rgba(244, 244, 12, 0.719));
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 30px;
+    transition: 0.2s ;
+}
+nav ul a:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px 5px;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 4px;
+    object-fit: cover;
+}
+img:hover{
+    transform: scale(1.04);
+}
+h4{
+    text-align: center;
+    text-transform: capitalize;
+}
+.item button{
+    position:; 
+    outline: none;
+    border: none;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 5px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 15px;
+    /* display: block; */
+    cursor: pointer;
+}
+.item button:hover{
+    color: rgb(214, 18, 18);
+    transform: scale(0.90);
+}
+nav ul button{
+    background-color: rgba(239, 9, 9, 0.708);
+    border: none;
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+nav ul button:hover{
+    transform: scale(1.10);
+}
+@media screen and (max-width: 100px){
+    .items{
+        grid-template-columns: repeat(2,1fr);
+    }
+} 
+@media screen and (max-width: 789px){
+    .items{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+    
+
