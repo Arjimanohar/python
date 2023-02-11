@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./html.css">
+    <title>manohar</title>
+</head>
+
+<body>
+    <h1>food company</h1><hr>
+    <nav>
+        <ul>
+           <a href="#"><li>home</li></a>
+           <a href="#"><li>about</li></a>
+           <a href="#"><li>account</li></a>
+           <a href="#"><li>order</li></a>
+           <a href="#"><li>setting</li></a>
+        <button class="but">login</button>
+
+        </ul><hr>
+    </nav>
+    <section class="items">
+        <div class="item">
+            <img src="./andras-vas-Bd7gNnWJBkU-unsplash.jpg" alt="">
+            <h4>laptop</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./brooke-lark-AdMHAf_cdns-unsplash.jpg "alt=""> 
+            <h4>camera</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./cindy-bartillon-Zhojqfy_2KY-unsplash.jpg" alt="">
+            <h4>flowers</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./felix-besombes-EzrHLVd83h0-unsplash.jpg" alt="">
+            <h4>laptop</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./jessica-delp-smNzhFQRktg-unsplash (1).jpg" alt="">
+            <h4>candel</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./jason-leung-fpEEMkvGi2c-unsplash.jpg" alt="">
+            <h4>bulbs</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./mae-mu-s6S8IgEN6-4-unsplash.jpg" alt="">
+            <h4>orange</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./mae-mu-tbm6k2G-vAA-unsplash.jpg" alt="">
+            <h4>tamato</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./spenser-sembrat-udhWy81-Yv4-unsplash.jpg" alt="">
+            <h4>hills</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./andras-vas-Bd7gNnWJBkU-unsplash.jpg" alt="">
+            <h4>laptop</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./brooke-lark-AdMHAf_cdns-unsplash.jpg "alt=""> 
+            <h4>camera</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./cindy-bartillon-Zhojqfy_2KY-unsplash.jpg" alt="">
+            <h4>flowers</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./felix-besombes-EzrHLVd83h0-unsplash.jpg" alt="">
+            <h4>laptop</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./jessica-delp-smNzhFQRktg-unsplash (1).jpg" alt="">
+            <h4>candel</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./jason-leung-fpEEMkvGi2c-unsplash.jpg" alt="">
+            <h4>bulbs</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./mae-mu-s6S8IgEN6-4-unsplash.jpg" alt="">
+            <h4>orange</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./mae-mu-tbm6k2G-vAA-unsplash.jpg" alt="">
+            <h4>tamato</h4>
+            <button>order</button>
+        </div>
+        <div class="item">
+            <img src="./spenser-sembrat-udhWy81-Yv4-unsplash.jpg" alt="">
+            <h4>hills</h4>
+            <button>order</button>
+        </div>
+         
+        
+    </section>
+
+
+</body>
+
+</html>
