@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhana Company</title>
+    <link rel="stylesheet" href="./dhana.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <h1>D<span>hana</span> C<span>ars</span></h1>
+             <a href="#"><li>home</li></a>
+            <a href="#"><li>details</li></a>
+            <a href="#"><li>order</li></a>
+            <a href="#"><li>about</li></a>
+            <a href="#"><li>setting</li></a>
+            <button>login</button>
+        </ul>
+    </nav>  
+    <section class="im">
+        <div>
+            <img src="./cars1.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars2.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars3.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars4.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars5.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars6.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars7.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars8.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars9.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars10.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars11.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars12.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars13.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars14.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars15.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars16.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars17.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars18.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars19.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars20.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars21.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars22.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars23.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars24.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars25.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars26.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars3.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars4.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars5.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars6.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars7.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars8.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars9.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars10.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars11.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars12.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars13.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars14.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars15.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars16.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars17.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars18.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars19.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars20.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars21.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars22.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars23.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars24.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars25.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+            <img src="./cars26.jpg" alt="">
+            <button>buy</button>
+        </div>
+        <div>
+        <img src="./cars2.jpg" alt="">
+        <button>buy</button> 
+    </section>
+    <footer>
+        <h4>arjimanohar6@gmail.com</h4>
+    </footer>
+     
+</body>
+</html>
