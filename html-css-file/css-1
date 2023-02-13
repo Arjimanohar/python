@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(150deg,rgb(247, 103, 103),rgb(231, 231, 96),rgb(186, 136, 136));
+}
+nav{
+    text-align: center;
+    background: linear-gradient(to left,rgba(241, 162, 14, 0.916),rgb(251, 164, 164));
+    width: 100%;
+    position:fixed;
+    top: 0px ;
+    z-index: 1;
+}
+nav h1{
+    color: red;
+    padding: 0px 0px;
+}
+nav span{
+    color: blue;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul h1{
+    font-size: 50px;
+    padding-top:0;
+}
+nav ul a{
+    text-decoration: none;
+    width: 100%;
+}
+nav ul a li{
+    display: inline-block;
+    padding: 5px 30px ;
+    text-transform: capitalize;
+}
+nav ul a li:hover{
+    background-color: bisque;
+    color: black;
+    border-radius: 5px;
+    transform: scale(1.06);
+}
+nav  button{
+    border: none;
+    padding: 5px 15px;
+    margin: 0px;
+    background-color: red;
+    border-radius: 10px;
+    text-transform: capitalize;
+
+}
+nav button:hover{
+    transform: scale(1.06);
+    /* transition : 1.5s; */
+
+}
+img{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    object-fit: cover ;
+    border-radius: 10px;   
+
+}
+.im{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:4px;
+    grid-row-gap:4px;
+    text-align: center;
+    padding-top: 91px;
+}
+.im div button{
+    border: none;
+    padding: 2px 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: none;
+}
+.im div button:hover{
+    background-color: rgb(255, 0, 81);
+    border-radius: 10px;
+    transform: scale(1.24);
+}
+img:hover{
+    transform: scale(1.010);
+    background: linear-gradient( rgba(0, 0, 0, 0.047),rgb(129, 127, 127)),url(./cars4.jpg);
+}
+footer{
+    padding-left: 10px;
+    background: linear-gradient(to left,rgba(241, 162, 14, 0.916),rgb(251, 164, 164));
+
+}
+ 
+@media screen and (max-width:900px){
+    .im{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:500px){
+    .im{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+    
