@@ -1,0 +1,6 @@
+st={1:['manu','bca','adcrjy',123456789],2:['dhana','bca','adcrjy',9753456789],3:['srinu','bca','adcrjy',956456789],4:['kishore','bca','adcrjy',1446545656789]}
+y=int(input())
+print('name of st:',st[y][0])
+print('group of st:',st[y][1])
+print('college of st:',st[y][2])
+print('phone number of st:',st[y][3])
