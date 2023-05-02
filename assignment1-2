@@ -1,0 +1,14 @@
+o={}
+p=int(input('enter number of students'))
+for i in range(p):
+    l=[]
+    pno=int(input('enter number:'))
+    pname=input('enter name:')
+    pcollege=input('enter college name:')
+    mobile=int(input('enter mobile number:'))
+    l.append(pno)
+    l.append(pname)
+    l.append(pcollege)
+    l.append(mobile)
+    o[pno]=l
+print(o)
