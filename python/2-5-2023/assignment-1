@@ -1,0 +1,10 @@
+p={}
+y=list(map(int,input().split()))
+for i in y:
+    if i not in p:
+        p[i]=1
+    else:
+        p[i]=p[i]+1
+for i in p:
+    if p[i]==1:
+        print(i,end="  ")
