@@ -1,0 +1,5 @@
+p=int(input())
+h=1                      i
+for i in range(p,0,-1):this is manohar in bca aditya degree college
+    h=h*i
+print(h)
